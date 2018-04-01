@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="TestCases(failed)">
+    <classes>
+      <class name="org.tgf.regression.aim.TestCase_FMIR">
+        <methods>
+          <include name="reportGeneration"/>
+          <include name="LaunchReport"/>
+          <include name="verify_FSEditability"/>
+          <include name="quitBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- org.tgf.regression.aim.TestCase_FMIR -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

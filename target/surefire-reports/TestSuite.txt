@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.779 s <<< FAILURE! - in TestSuite
+verify_FSEditability(org.tgf.regression.aim.TestCase_FMIR)  Time elapsed: 46.476 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.tgf.regression.aim.TestCase_FMIR.verify_FSEditability(TestCase_FMIR.java:272)
+

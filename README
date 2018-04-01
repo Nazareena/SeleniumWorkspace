@@ -1,0 +1,76 @@
+#=============================================#
+# Basic Structure of "Regression Suite - TGF" #
+#=============================================#
+
+There are basically 7 Packages:
+
+Global - org.tgf.global
+AIM    - org.tgf.regression.aim
+JIATF  - org.tgf.regression.jiatf
+LFA    - org.tgf.regression.lfa
+PET    - org.tgf.regression.pet
+PPM    - org.tgf.regression.ppm
+PSE    - org.tgf.regression.pse
+
+-----------------------------------
+<< General Inheritance Hierarchy >> 
+-----------------------------------
+>>>	GlobalVariables.java
+		|
+		-> BaseClass.java
+			|
+			-> ObjectRepository.java
+				|
+				-> TestData.java
+					|
+					-> GenericFunctions.java
+						|
+						-> TestCases.java
+	
+>>>	Operations.java
+
+          
+-----------------------------------
+: Global Package - org.tgf.global :
+-----------------------------------
+Contains the Global Variables , BaseClass , Operations Class which will be used across all the packages.
+
+Global Variables Class - Contains all the global variables.
+BaseClass              - inherits the Global Variables Class and contains static methods to interact with the browser.
+Operations Class       - is same as BaseClass contains the same methods except those methods are instance methods and not static methods.
+
+
+--------------------------------
+: LFA - org.tgf.regression.aim :
+--------------------------------
+This package contains the Test Suite for AIM Regression.
+It includes the following Class:
+- Object Repository Class (inherits the BaseClass)
+- Test Data Class         (inherits the Object Repository Class)
+- Generic Funcitons Class (inherits Test Data Class)
+- Test Cases Class        (inherits Generic Functions Class)
+
+
+
+--------------------------------
+: LFA - org.tgf.regression.lfa :
+--------------------------------
+This package contains the Test Suite for LFA Regression.
+It includes the following Class:
+- Object Repository Class (inherits the BaseClass)
+- Test Data Class         (inherits the Object Repository Class)
+- Generic Funcitons Class (inherits Test Data Class)
+- Test Cases Class        (inherits Generic Functions Class)
+
+Note :
+@Alok Singh
+@Date : 1-Mar-2017
+@Description :
+I am writing a generic method to combine the below 3 Test methods:
+"keyServiceAddSubService"
+"AddProcurementService"
+"AddOtherLFASubService" 
+Make of the new generic method is "addServices_To_LFA_WorkPlan".
+
+
+

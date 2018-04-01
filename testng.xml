@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.lfa.TestCases">
+			
+				<methods>
+					 <include name="test_Case_001_Login_As_LFA_Coordinator" />
+					<include name="test_Case_002_Create_Regional_Budget_Records" />
+					<include name="test_Case_003_Create_LFA_Organizations" />
+					<include name="test_Case_004_Create_LFA_Contacts" />
+					<include name="test_Case_005_Create_LFA_Contact_Rates" />
+					<include name="test_Case_006_Work_Plan_Flow_With_Internal_User" />
+					<include name="WorkPlanFlowWithInternalUser" />
+					<include name="WorkPlanFlowWithPortalUser" />
+					<include name="SplitServiceByLFAPortalUser" />
+					<include name="test_Case_037_Submit_Invoice_in_Salesforce" />
+					<include name="test_Case_041_Set_Work_Plan_Status_to_Closed" />
+					<include name="finalizeThePet" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+ 
+
+<!-- <test name="TestCases_R3" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCases_R3">
+				<methods>
+					<include name="userBrowserInstanceCration" />
+					<include name="CreateMultipleChangeRequestbyPR_CCM_User" />
+					<include name="LfaCoordinatorRequest" />
+					<include name="CtUser_Approve_Reject_ChangeRequest"/>
+					<include name="CcmHubUser_Approved_Rejects_Request"/>
+					<include name="MDOT_Approve_Reject_ChangeRequest"/>
+					<include name="LegalOfficer_Approve_Reject_ChangeRequest"/>
+					<include name="MDOT_Validates_ChangeRequest"/>
+					<include name="MDOT_validateThePreviousValidatedRequest"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>  -->
+<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.sip.TestCases">
+				<methods>
+					<include name="login_By_Admin_User" />
+					<include name="workPlanTaskCreation" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.lfa.TestCasesEnchancement">
+				<methods>
+				    <include name="loginandLogged"/>
+					<include name="verify_Cost_LOE_with_Templates" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCasesEnchancement">
+				<methods>
+				    <include name="LaunchBrowser"/>
+					<include name="verify_GCA_with_Templates" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	            <!-- Release 4 A Test Cases -->
+	<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_R4A">
+				<methods>
+				    <include name="verify_RecordTypes_ObjectsbySystemAdmin" />
+					<include name="verify_Program_split_enhancement_FPM" />
+					<include name="verify_EventManagement_A2FSuperUser" />
+					<include name="verify_Program_split_enhancement_FPA_PO" />
+					<include name="verify_Enhancements_A2F_Admin_by_A2F_user" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	
+	 <!-- Release 4 B Test Cases -->
+	<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_R4B">
+				<methods>
+				    <include name="verify_Program_Split_Enhancements" />
+					 <include name="verify_AgreedMulticountry_PrgSplit" />
+					<include name="verify_Allocation_PrgSplit_ByAnyUser" />
+					<include name="verify_Import_Validation_of_documents" />
+					<include name="verify_Mgmt_Multicountry_PrgmSplit" /> 	
+					<include name="validate_Quaterly_Cash_Information" />
+					 <include name="validate_Negative_testing" /> 
+					<include name="validate_GrantMaking_AddStd_Requirement" /> 
+					<include name="validate_GrantMaking_DeleteStd_Requirement" /> 
+					<include name="validate_GrantRevision_AddStd_Requirement" /> 
+					<include name="validate_GrantRevision_DeactivateStd_Requirement" />  
+				
+					Below are one time
+					<include name="validate_View_Approve_Documents" /> 
+					<include name="validate_View_Reject_Documents" />  
+					<include name="validate_ReassignApproval" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	 
+	<!-- <test name="TestCases" preserve-order="true">
+	 	
+			<groups>
+
+	           <run>
+
+		         <include name="GrantImplementation" />
+                 <include name="FundingRequest" />
+	           </run>
+
+               </groups>
+               
+		<classes>
+		<class name="org.tgf.regression.aim.TestCase_R4A"/>
+		<class name="org.tgf.regression.aim.TestCase_R4B"/>
+		<class name="org.tgf.regression.aim.TestCase_R4D" />
+	
+						
+		</classes>
+	</test>  -->
+	 
+	 <!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_DM">
+				<methods>
+					
+					<include name="verify_Creation_CR_FPM" /> 
+				    <include name="verify_Update_3rdParty_NegativeTesting" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!--  <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_DM">
+				<methods>
+					
+					<include name="verify_Creation_CR_FPM" /> 
+				    <include name="verify_Update_3rdParty_NegativeTesting" />
+					
+				</methods>
+			</class>
+			
+			<class name="org.tgf.regression.aim.TestCase_R4D">
+				<methods>
+					
+					<include name="verify_Creation_CR_FPM" /> 
+				    <include name="verify_NotificationLetterfromGOS" />
+					
+				</methods>
+			</class>
+			
+			
+		</classes>
+	</test> -->
+	
+	
+	  <!-- Disbursement Modules Test Cases -->
+	<!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_DM">
+				<methods>
+										 
+				    <include name="verify_InitiateRecord_StdAFD" />
+					<include name="verify_Finalize_Supplementary" />
+					<include name="verify_Initial_Supplementary" />
+					<include name="verify_Initial_Supplementary_OfSupplmentary" />
+					 <include name="verify_Review_CR_LO" /> 
+					 <include name="verify_Creation_CR_FPM" /> 
+					
+					<include name="verify_Additional_PR_ExistingOrg_By_FPM" /> 
+					<include name="verify_Update_3rdParty_BankAccn_FPM" />
+					<include name="verify_Update_3rdParty_Deactivation_FPM" />
+					<include name="verify_Update_3rdParty_OrgInfo_FPM" />
+					<include name="verify_Update_3rdParty_NegativeTesting" />
+					<include name="verify_Create_Partial_Decommitment" />  
+					<include name="verify_MDOT_Pending_Due_Diligence" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	
+	  <!-- Release 4D Test Cases -->
+ <!-- <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_R4D">
+				<methods>
+				    <include name="verify_GR_Docu_by_CT_FPM" /> 
+					<include name="verify_Access_GR_Docu_by_CT_FPM" />
+					<include name="verify_FR_Stages_FPM_A2FUser_AIMSuperUser" /> 
+					 <include name="verify_RevisedApproachbutton_A2FUser_AIMSuperUser" /> 
+					<include name="verify_CleanPFbutton_SuperUser_delete_PFrecords" />
+					  <include name="verify_Signoff_approvals_available_IP" />
+					<include name="verify_AUP_approval_history_AIMSuperUser_A2FSuperUser" />
+				<include name="verify_Report_CostGroupingbyAnyUser" />
+						 <include name="verify_CategoryofGrantRequirementsbyFPM" />
+					
+					<include name="verify_DetailsGrantCreationpagebyCTmember" />
+					<include name="verify_ControlGFSVendorsite_VendorSiteID" />
+					The below is one time
+					<include name="verify_CoverageIndicatorsfromOriginalIP_ActiveIP" />
+					Release Sprint 2
+					<include name="verify_EnhancementstoaddingGrantRequirements" />
+					<include name="verify_MulticountryprogramsplitmulticountrywithOriginalAllocationSplit" />
+					<include name="verify_GrantDocumentsoverview_GrantMaking_GrantRevisions" />
+					<include name="verify_Correctrenderingoftabs_subtabs" />
+					<include name="verify_StatusofgrantvisibleA2F_TRP_GAC_event_management_page" />
+					<include name="verify_Adding_GM_updating_GI_taxExemptionStatus" />
+					<include name="verify_StatusIPbasedGrantTypeRevision" />
+					<include name="verify_Additionalfields_OrganisationInforPage_ContactPages" />
+					<include name="verify_IATIidentifier_Organization_ChangeRequests" />
+					<include name="verify_PDF_Approved_GM_Documents" />
+					<include name="verify_NotificationLetterfromGOS" /> 
+					<include name="verify_LockedfieldsinGFreviewwhenRPisunderapproval" />  
+					
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+
+  <test name="TestCases" preserve-order="true">
+		<classes>
+			<class name="org.tgf.regression.aim.TestCase_FMIR">
+				<methods>
+					
+					<!-- <include name="verify_Admin1" />  -->
+				    <!-- <include name="verify_FS_Record_Selection1" /> -->
+				    <!--  <include name="verify_FS_Record_Selection2" /> -->
+				    
+				     <!--   <include name="verify_Access3" /> -->
+				     <!--  <include name="verify_GeneralInstructions" /> -->
+				     <!--   <include name="verify_FS_Landing_Page" /> -->
+				      <!--   <include name="verify_TotalPortfolioAmount" /> -->
+					  <!-- <include name="verify_TotalDisbursement" /> -->
+					 <!--  <include name="verify_Legend" /> -->
+					<!--   <include name="verify_Variance" /> -->
+					 <!--   <include name="verify_GrantAssessmentrecord_visibility" /> -->
+					   <!--  <include name="verify_Access7" /> -->
+					     <!--   <include name="verify_NA_ScoreComments" /> -->
+				<include name="verify_FSEditability" /> 
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	
+</suite> 
