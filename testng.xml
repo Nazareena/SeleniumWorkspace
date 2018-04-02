@@ -262,7 +262,10 @@
 					 <!--   <include name="verify_GrantAssessmentrecord_visibility" /> -->
 					   <!--  <include name="verify_Access7" /> -->
 					     <!--   <include name="verify_NA_ScoreComments" /> -->
-				<include name="verify_FSEditability" /> 
+						 
+				<!--<include name="verify_FSEditability" /> 1355-->
+				 <!--  <include name="verify_Legend" /> 1333-->
+				 <include name="verify_Admin1" />  
 				</methods>
 			</class>
 		</classes>
