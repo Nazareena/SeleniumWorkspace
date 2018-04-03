@@ -5,8 +5,8 @@
     <classes>
       <class name="org.tgf.regression.aim.TestCase_FMIR">
         <methods>
+          <include name="verify_Legend"/>
           <include name="LaunchReport"/>
-          <include name="verify_FSEditability"/>
         </methods>
       </class> <!-- org.tgf.regression.aim.TestCase_FMIR -->
     </classes>
