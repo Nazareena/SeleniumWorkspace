@@ -264,9 +264,10 @@
 					     <!--   <include name="verify_NA_ScoreComments" /> -->
 						 
 				<!--<include name="verify_FSEditability" />--><!--1355 getting failed-->
-				<include name="verify_Legend" /> <!--1333-->
+				<!--<include name="verify_Legend" />--> <!--1333-->
 				<!--<include name="verify_Admin1" />-->  <!--1308-->
-				 <include name="verify_Access2" /> <!--1321-->
+				 <!--<include name="verify_Access2" /> --><!--1321-->
+				 <include name="verify_Access3" /> <!--   -->
 				</methods>
 			</class>
 		</classes>
