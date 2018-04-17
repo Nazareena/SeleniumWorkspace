@@ -104,7 +104,7 @@ public class TestData extends ObjectRepository
     public static String otherUser_username_text = "kristin.schreiber@theglobalfund.org.2.aimpreprod" ;
     public static String OtherUser_password_text = "jan@2017"                                         ;
     
-    public static String username_Org2_AimPreProd_Priyanka   = "ashwin.ramachandran@theglobalfund.org.2.support";//neha.jadhav@theglobalfund.org.2.aimpreprod
+    public static String username_Org2_AimPreProd_Priyanka   = "ashwin.ramachandran@theglobalfund.org.2.supportorg";//neha.jadhav@theglobalfund.org.2.aimpreprod
     public static String password_Org2_AimPreProd_Priyanka   = "Happy$123" ;//salesforce3
     
     
