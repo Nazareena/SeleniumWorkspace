@@ -16680,7 +16680,7 @@ public static void validate_Qtly_Cash_Inform() throws Exception {
 			waitForPageToBeReady();
 			waitForPageAsWish(7);
 			logger.log(LogStatus.PASS, "Click on Login button for the " + FMIR_RFM_User);
-			
+			waitForPageAsWish(5);
 			
 			if (driver.getCurrentUrl().contains("lightning.force.com")) {
 
@@ -16751,7 +16751,7 @@ public static void validate_Qtly_Cash_Inform() throws Exception {
 				JavascriptExecutor GANAME = (JavascriptExecutor) driver;
 				String name= GANAME.executeScript("return document.getElementsByClassName('uiOutputText')[3].textContent").toString();
 				waitForPageToBeReady();
-				waitForPageAsWish(5);
+				waitForPageAsWish(10);
 				logger.log(LogStatus.PASS, "Grant Assessment Name " + "<b>" + name +"</b>");
 				/*JavascriptExecutor amt = (JavascriptExecutor) driver;
 				String Amt= amt.executeScript("return document.getElementsByClassName('uiOutputNumber')[1].textContent").toString();
@@ -16770,7 +16770,7 @@ public static void validate_Qtly_Cash_Inform() throws Exception {
 				JavascriptExecutor legendbtn = (JavascriptExecutor) driver;
 				legendbtn.executeScript("document.getElementById('legendButton').children[0].click();");
 				waitForPageToBeReady();
-				waitForPageAsWish(5);
+				waitForPageAsWish(10);
 				
 				logger.log(LogStatus.PASS, "Click on Legend button");
 				//Close the pop up 
